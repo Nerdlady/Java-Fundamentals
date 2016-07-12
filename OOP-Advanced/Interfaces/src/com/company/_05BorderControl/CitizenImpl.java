@@ -22,8 +22,8 @@ public class CitizenImpl implements Citizen {
         return this.name;
     }
 
-    @Override
-    public void setName(String name) {
+
+    private void setName(String name) {
         this.name = name;
     }
 
@@ -32,8 +32,8 @@ public class CitizenImpl implements Citizen {
         return this.age;
     }
 
-    @Override
-    public void setAge(int age) {
+
+    private void setAge(int age) {
         this.age = age;
     }
 
@@ -42,8 +42,8 @@ public class CitizenImpl implements Citizen {
         return this.id;
     }
 
-    @Override
-    public void setId(String id) {
+
+    private void setId(String id) {
         this.id = id;
     }
 
@@ -52,8 +52,8 @@ public class CitizenImpl implements Citizen {
         return this.birthday;
     }
 
-    @Override
-    public void setBirthday(String birthday) {
+
+    private void setBirthday(String birthday) {
         this.birthday = birthday;
     }
 

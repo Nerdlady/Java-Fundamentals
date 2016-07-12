@@ -1,9 +1,7 @@
 package com.company._05BorderControl.interfaces;
 
-public interface Rebel extends Buyer {
+public interface Rebel extends Buyer,Nameble {
 
     String getGroup();
-    void setGroup(String group);
     int getAge();
-    void setAge(int age);
 }

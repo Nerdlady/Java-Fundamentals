@@ -19,8 +19,7 @@ public class RebelImpl implements Rebel {
         return this.name;
     }
 
-    @Override
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
     }
 
@@ -29,8 +28,7 @@ public class RebelImpl implements Rebel {
         return this.group;
     }
 
-    @Override
-    public void setGroup(String group) {
+    private void setGroup(String group) {
         this.group = group;
     }
 
@@ -39,8 +37,7 @@ public class RebelImpl implements Rebel {
         return this.age;
     }
 
-    @Override
-    public void setAge(int age) {
+    private void setAge(int age) {
         this.age = age;
     }
 

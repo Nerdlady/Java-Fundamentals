@@ -1,6 +1,5 @@
 package com.company._05BorderControl.interfaces;
 
-public interface Identifiable {
+public interface Identifiable extends Nameble {
     String getId();
-    void setId(String id);
 }

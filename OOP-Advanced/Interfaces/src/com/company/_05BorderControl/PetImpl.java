@@ -16,8 +16,7 @@ public class PetImpl implements Pet {
         return this.name;
     }
 
-    @Override
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
     }
 
@@ -26,8 +25,7 @@ public class PetImpl implements Pet {
         return this.birthday;
     }
 
-    @Override
-    public void setBirthday(String birthday) {
+    private void setBirthday(String birthday) {
         this.birthday = birthday;
     }
 }

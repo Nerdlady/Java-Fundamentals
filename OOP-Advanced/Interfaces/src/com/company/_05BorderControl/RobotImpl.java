@@ -16,8 +16,7 @@ public class RobotImpl implements Robot {
         return this.id;
     }
 
-    @Override
-    public void setId(String id) {
+    private void setId(String id) {
         this.id = id;
     }
 
@@ -26,8 +25,7 @@ public class RobotImpl implements Robot {
         return this.model;
     }
 
-    @Override
-    public void setModel(String model) {
+    private void setModel(String model) {
         this.model = model;
     }
 }
